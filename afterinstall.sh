@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /var/www/html
+cd /home/ubuntu
 npm run build
 npx kill-port 3000
 pm2 start
